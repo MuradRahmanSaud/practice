@@ -13,15 +13,36 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Home Page"),
+        actions: [
+          IconButton(
+              onPressed: () {}, icon: Icon(Icons.mail), color: Colors.cyan)
+        ],
       ),
       body: Container(
         margin: EdgeInsets.all(10),
         height: 200,
         width: 600,
         decoration: BoxDecoration(
-          
-          color: Colors.cyan,
-
+          color: Colors.green,
+          borderRadius: BorderRadius.circular(5),
+          boxShadow: [
+            BoxShadow(
+                color: Colors.black12,
+                blurRadius: 4,
+                offset: Offset(2, 4),
+                spreadRadius: 0),
+          ],
+        ),
+        child: Container(
+          margin: EdgeInsets.only(
+            left: 50,
+            bottom: 10,
+            top: 10,
+          ),
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            color: Colors.red,
+          ),
         ),
       ),
     );
