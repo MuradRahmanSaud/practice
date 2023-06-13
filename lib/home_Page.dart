@@ -13,10 +13,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Home Page"),
-        actions: [
-          IconButton(
-              onPressed: () {}, icon: Icon(Icons.mail), color: Colors.cyan)
-        ],
+        actions: [Icon(Icons.mail)],
       ),
       body: Container(
         margin: EdgeInsets.all(10),
