@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practice/appbar.dart';
-import 'package:practice/home_Page.dart';
-import 'package:practice/row_Column.dart';
+import 'package:practice/bangladeshi_Flag.dart';
+
+import 'column.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,15 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.teal,
-
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
       ),
-      home: Row_Column(),
-
+      home: Bangladeshi_Flag(),
     );
   }
 }
-
-
-
-
