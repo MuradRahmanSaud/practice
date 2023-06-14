@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice/bangladeshi_Flag.dart';
-
-import 'column.dart';
+import 'pages/row_Practice.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: Bangladeshi_Flag(),
+      home: Row_Practice(),
     );
   }
 }

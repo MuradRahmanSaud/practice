@@ -12,7 +12,7 @@ class _Row_ColumnState extends State<Row_Column> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Row and Column"),
+        title: Text("Column"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
