@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:practice/appbar.dart';
 import 'package:practice/home_Page.dart';
+import 'package:practice/row_Column.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.teal,
 
       ),
-      home: App_Bar(),
+      home: Row_Column(),
 
     );
   }
