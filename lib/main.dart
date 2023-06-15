@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practice/pages/row_Practice.dart';
+import 'package:practice/daffodil/diu_HomePage.dart';
+
 
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.teal,
 
       ),
-      home: Row_Practice(),
+      home: DIU_HomePage(),
 
     );
   }
