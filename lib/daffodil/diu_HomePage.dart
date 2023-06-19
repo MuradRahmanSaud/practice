@@ -19,63 +19,67 @@ class DIU_HomePage extends StatelessWidget {
             ),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
-              child: Column(
-                children: [
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 100,
-                        width: 250,
-                        color: Colors.teal,
-                      ),
-                    ],
-                  )
-                ],
+              child: Container(
+                padding: EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.teal, width: 1),
+                ),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          width: 250,
+                          color: Colors.teal,
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ],

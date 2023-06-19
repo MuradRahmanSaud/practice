@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice/daffodil/dashboard.dart';
 import 'package:practice/daffodil/diu_HomePage.dart';
 
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.teal,
 
       ),
-      home: DIU_HomePage(),
+      home: Dashboard(),
 
     );
   }
