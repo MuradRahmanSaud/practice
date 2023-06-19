@@ -7,7 +7,7 @@ class DIU_HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Daffodil International University'),
+          title: Text('Daffodil International Universityy'),
         ),
         body: Column(
           children: [
