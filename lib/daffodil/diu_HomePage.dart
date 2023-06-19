@@ -9,690 +9,76 @@ class DIU_HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text('Daffodil International University'),
         ),
-        body: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-
-          child: Column(
-
-            children: [
-              Container(
-                margin: EdgeInsets.all(10),
-                height: 50,
-                width: double.infinity,
-                color: Colors.teal,
-                child: Center(child: Text('Header')),
-              ),
-              Column(
-
+        body: Column(
+          children: [
+            Container(
+              margin: EdgeInsets.only(top: 10),
+              height: 100,
+              width: double.infinity,
+              color: Colors.teal,
+            ),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Column(
                 children: [
-                  SingleChildScrollView(scrollDirection: Axis.vertical),
                   Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
                         margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
+                        height: 100,
+                        width: 250,
                         color: Colors.teal,
-                        child: Center(child: Text('Header')),
                       ),
                       Container(
                         margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
+                        height: 100,
+                        width: 250,
                         color: Colors.teal,
-                        child: Center(child: Text('Header')),
                       ),
                       Container(
                         margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
+                        height: 100,
+                        width: 250,
                         color: Colors.teal,
-                        child: Center(child: Text('Header')),
                       ),
                       Container(
                         margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
+                        height: 100,
+                        width: 250,
                         color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
                       ),
                       Container(
                         margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
+                        height: 100,
+                        width: 250,
                         color: Colors.teal,
-                        child: Center(child: Text('Header')),
                       ),
                       Container(
                         margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
+                        height: 100,
+                        width: 250,
                         color: Colors.teal,
-                        child: Center(child: Text('Header')),
                       ),
                       Container(
                         margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
+                        height: 100,
+                        width: 250,
                         color: Colors.teal,
-                        child: Center(child: Text('Header')),
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(10),
+                        height: 100,
+                        width: 250,
+                        color: Colors.teal,
                       ),
                     ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(10),
-                        height: 50,
-                        width: 150,
-                        color: Colors.teal,
-                        child: Center(child: Text('Header')),
-                      ),
-                    ],
-                  ),
+                  )
                 ],
               ),
-
-
-            ],
-          ),
-        )
-    );
+            ),
+          ],
+        ));
   }
 }
