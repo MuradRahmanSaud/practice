@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:practice/pages/bangladeshi_Flag.dart';
 import 'package:practice/pages/column.dart';
-import 'package:practice/pages/practice01.dart';
-import 'package:practice/pages/riyad.dart';
+import 'package:practice/pages/bmi_Calculator.dart';
+
 import 'pages/row_Practice.dart';
 
 void main() {
